@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hero">
+      <h1 id="title">Metric/Imperial Unit Converter</h1>
+      <input id="input" type="number" placeholder="0" />
+      <div class="container">
+        <button id="convert-btn">Convert</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="section1">
+        <h3>Length (Meters/Feet)</h3>
+        <p id="length">0 meter(s) = 0 feet | 0 feet = 0 meter(s)</p>
+      </div>
+      <div class="section2">
+        <h3>Volume (Litres/Gallons)</h3>
+        <p id="volume">0 litre(s) = 0 gallon(s) | 0 gallon(s) = 0 litre(s)</p>
+      </div>
+      <div class="section3">
+        <h3>Mass (Kilograms/Pounds)</h3>
+        <p id="mass">0 kilo(s) = 0 pound(s) | 0 pound(s) = 0 kilo(s)</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
